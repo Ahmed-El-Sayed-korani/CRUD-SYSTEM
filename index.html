@@ -1,0 +1,79 @@
+<html>
+
+
+
+<head>
+
+
+  <link rel="stylesheet" href="main.js">
+  <link rel="stylesheet" href="js/bootstrap.min.css">
+  <link rel="stylesheet" href="js/style.css">
+  <link rel="stylesheet" href="stylee.css">
+
+
+</head>
+
+
+
+<body>
+
+  <div class="container my-5 p-5">
+    <h2 class="text-body-tertiary my-5 fs-1">Bookmarker</h2>
+    <hr>
+
+  </div>
+  <div class="w-50 shadow-lg p-5 my-5 m-auto">
+    <h2>CRUD SYSTEM</h2>
+    <label for="productName" class="my-2">ProductName</label>
+    <input type="text" id="productName" class="form-control">
+
+    <label for="productCatogery" class="my-4">ProductCatogery</label>
+    <input type="text" id="productCatogery" class="form-control">
+
+    <label for="productPrice" class="my-4">ProductPrice</label>
+    <input type="text" id="productPrice" class="form-control">
+
+    <label for="productDescription" class="my-2">ProductDescription</label>
+    <textarea id="productDescription" cols="30" rows="7" class="form-control"></textarea>
+
+    <button class="btn btn-outline-info my-3" onclick="addproduct()">Add</button>
+  </div>
+
+
+
+
+  <table class=" table table-hover text-center w-50 m-auto">
+    <thead>
+      <th>Index</th>
+      <th>name</th>
+      <th>Catogery</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Delete</th>
+      <th>Update</th>
+
+
+    </thead>
+    <tbody id="tbody">
+      <!-- <tr>
+        <td>ahmed</td>
+        <td>26</td>
+        <td>ahmed@gmail.com</td>
+        <td>ahmed@gmail.com</td>
+
+        
+      </tr> -->
+
+    </tbody>
+
+  </table>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
